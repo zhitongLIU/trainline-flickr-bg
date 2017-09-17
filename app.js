@@ -12,6 +12,7 @@ $(document).ready( function() {
           var rnd = Math.floor(Math.random() * data.items.length);
           var image_src = data.items[rnd]['media']['m'].replace("_m", "_b");
           var panel = document.getElementsByClassName('hero-panel')[0];
+          $('.hero-panel').css('transition', "background 1s linear");
           $('.hero-panel').css('background-image', "url('" + image_src + "')");
         }
   }
