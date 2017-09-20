@@ -6,8 +6,11 @@
       "http://*/*",
       "https://*/*"
     ],
+    "browser_action": {
+      "default_popup": "frontend/popup.html"
+    },
     "content_scripts": [{
       "matches": ["https://www.thetrainline.com/"],
-      "js": ["jquery-3.2.1.min.js","app.js"]
+      "js": ["jquery-3.2.1.min.js", "app.js"]
     }]
 }
