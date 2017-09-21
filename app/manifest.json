@@ -11,6 +11,6 @@
     },
     "content_scripts": [{
       "matches": ["https://www.thetrainline.com/"],
-      "js": ["jquery-3.2.1.min.js", "app.js"]
+      "js": ["jquery-3.2.1.min.js", "backend/app.js"]
     }]
 }

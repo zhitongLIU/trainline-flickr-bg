@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', documentEvents  , false);
+document.addEventListener("DOMContentLoaded", documentEvents  , false);
 
 function changeElementClass(input) {
   if(input.value !== "") {
@@ -18,16 +18,16 @@ function changeInterval(input) {
 }
 
 function documentEvents() {
-  document.getElementById('ok_btn1').addEventListener('click',
-    function() { changeElementClass(document.getElementById('element_class'));
+  document.getElementById("ok_btn1").addEventListener("click",
+    function() { changeElementClass(document.getElementById("element_class"));
   });
 
-  document.getElementById('ok_btn2').addEventListener('click',
-    function() { changeKeyword(document.getElementById('keyword'));
+  document.getElementById("ok_btn2").addEventListener("click",
+    function() { changeKeyword(document.getElementById("keyword"));
   });
 
-  document.getElementById('ok_btn3').addEventListener('click',
-    function() { changeInterval(document.getElementById('interval'));
+  document.getElementById("ok_btn3").addEventListener("click",
+    function() { changeInterval(document.getElementById("interval"));
   });
 }
 
