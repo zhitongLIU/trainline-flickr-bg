@@ -9,6 +9,11 @@ examples
 ![alt s1](./images/s1.png)
 ![alt s2](./images/s2.png)
 
+# Run tests
+> npm install
+
+> gulp
+
 # TODO
 * add tests
 * add linter
