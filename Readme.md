@@ -9,10 +9,14 @@ examples
 ![alt s1](./images/s1.png)
 ![alt s2](./images/s2.png)
 
-# Run tests
-> npm install
+## Install extension
+> https://developer.chrome.com/extensions/getstarted#unpacked
 
-> gulp
+## Run tests
+```
+npm install
+gulp
+```
 
 # TODO
 * add tests
